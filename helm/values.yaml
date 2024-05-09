@@ -1,2 +1,4 @@
 env:
   APP_VERSION: 0.1
+service:
+  port: 3000  # Example port
