@@ -16,7 +16,7 @@ spec:
         spec:
             containers:
                 - name: app
-                  image: matesousa/app-helm:{{ .Values.env.APP_VERSION }}
+                  image: matesousa/app-helm:0.1
                   ports:
                     - containerPort: 3000
                   env:
